@@ -20,6 +20,9 @@ Github link: "https://github.com/HuzaifahZia/Google-Search-Analytics-/blob/main/
 
 Installing Libraries
 ```{r}
+   # alternative installation of the %>%
+library(magrittr) # needs to be run every time you start R and want to use %>%
+library(dplyr)
 library(ggplot2)
 library(ggthemes)
 library(scales)
